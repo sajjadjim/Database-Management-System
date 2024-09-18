@@ -13,3 +13,13 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
+
+
+
+
+
+INSERT INTO users (username, email, password) 
+VALUES ('JohnDoe', 'john@example.com', 'password123'),
+       ('JaneDoe', 'jane@example.com', 'securepassword');
+
